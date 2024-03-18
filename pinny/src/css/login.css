@@ -42,3 +42,48 @@
     border-radius: 5px;
     color : #ffffff;
 }
+
+.login-list{
+    display: flex;
+    width: calc(100% - 11.11vw);
+    margin: 0 auto;
+    justify-content: space-between;
+    margin-top: 0.88vh;
+}
+
+.login-list p{
+    font-size: 12px;
+    color: rgb(0,0,0,0.5);
+}
+
+.login-auth{
+    margin-top: 3.13vh;
+    align-items: center;
+}
+
+.login-auth-hr{
+    display: flex;
+    align-items: center;
+}
+
+.login-auth-hr p{
+    padding : 0 1.94vw;
+    font-size: 12px;
+    color : rgb(0,0,0,0.87);
+}
+
+.login-auth-hr hr{
+    flex-grow: 1;
+    margin: 0 auto;
+    border: 1px solid rgb(0,0,0,0.64);
+}
+
+.login-auth-img{
+    margin-top: 2.5vh;
+    display: flex;
+    justify-content: center;
+}
+
+.login-auth-img > *:not(:last-child) {
+    margin-right: 11.11vw;
+}
