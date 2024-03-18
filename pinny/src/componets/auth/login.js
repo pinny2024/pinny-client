@@ -11,6 +11,7 @@ const Login = () => {
             <div className="login-main">
                 <input type="text" className="login-input-email" placeholder="이메일을 입력하세요"></input>
                 <input type="text" className="login-input-password" placeholder="비밀번호를 입력해주세요"></input>
+                <button type="submit" className="login-submit-btn">확인</button>
             </div>
         </>
     );

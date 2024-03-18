@@ -17,7 +17,7 @@
 
 .login-input-email,
 .login-input-password {
-    width: calc(100% - 11.11vw);
+    width: calc(100% - 13.61vw);
     height: 5vh;
     margin: 0 auto;
     margin-bottom: 3vh;
@@ -31,4 +31,14 @@
 .login-input-password:focus{
     border: 1px solid #5EDCC4;
     outline: none;
+}
+
+.login-submit-btn{
+    width: calc(100% - 11.11vw);
+    height: 5vh;
+    margin: 0 auto;
+    background-color: #D0D0D0;
+    border: none;
+    border-radius: 5px;
+    color : #ffffff;
 }
