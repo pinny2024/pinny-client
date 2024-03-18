@@ -24,6 +24,11 @@
     border-radius: 5px;
     border: 1px solid rgb(0,0,0,0.34);
     padding-left: 2.5vw;
-    color: #5EDCC4;
+    color: rgb(0,0,0,0.87);
+}
 
+.login-input-email:focus,
+.login-input-password:focus{
+    border: 1px solid #5EDCC4;
+    outline: none;
 }
