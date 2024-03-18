@@ -1,0 +1,29 @@
+.login-text{
+    margin-left: 5.56vw;
+    margin-top: 8.75vh;
+}
+
+.login-text h1{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.login-main{
+    margin-top: 5vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.login-input-email,
+.login-input-password {
+    width: calc(100% - 11.11vw);
+    height: 5vh;
+    margin: 0 auto;
+    margin-bottom: 3vh;
+    border-radius: 5px;
+    border: 1px solid rgb(0,0,0,0.34);
+    padding-left: 2.5vw;
+    color: #5EDCC4;
+
+}
