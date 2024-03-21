@@ -1,6 +1,6 @@
 import React from "react";
-import "../../css/login.css"
-import "../../css/index.css"
+import "../../css/auth/login.css"
+import "../../css/comm/index.css"
 
 const Login = () => {
     return (
