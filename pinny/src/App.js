@@ -3,6 +3,7 @@ import React from "react";
 
 import LoginPage from "./pages/login";
 import Nav from "./pages/nav"
+import Home from "./pages/home"
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Routes>
         <Route path="/login" element={<LoginPage />} />
         <Route path="/nav" element={<Nav/>} />
+        <Route path="/home" element={<Home/>} />
       </Routes>
     </Router>
   )
