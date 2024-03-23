@@ -1,10 +1,10 @@
 import React from "react";
-import Home from "../componets/home/home";
+import Nav from "../componets/comm/nav";
 
 const HomePage = () => {
     return(
         <div>
-            <Home/>
+            <Nav/>
         </div>
     )
 }
