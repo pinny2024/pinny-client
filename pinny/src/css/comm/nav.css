@@ -30,7 +30,14 @@
   
 .nav-label {
     margin-top: 5px;
-    font-size: 12px; 
+    font-size: 10px; 
     color: rgb(0,0,0,0.87); 
+    font-weight: 600;
 }
-  
+
+.nav-label-active{
+    margin-top: 5px;
+    font-size: 10px; 
+    color: #38D6B8;
+    font-weight: 600;
+}
