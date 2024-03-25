@@ -29,6 +29,24 @@
     list-style: none;
     text-align: center;
 }
+.nav-item {
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.nav-item:hover {
+    color: #38d6b8;
+}
+
+.nav-item.clicked {
+    color: #38d6b8;
+}
+
+.nav-item.clicked img {
+    filter: invert(68%) sepia(87%) saturate(4585%) hue-rotate(130deg) brightness(99%) contrast(86%);
+
+}
+
   
 .nav-icon {
     width: 24px; 
