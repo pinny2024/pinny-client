@@ -15,6 +15,7 @@
     border-top-left-radius: 15px; /* 왼쪽 하단바 둥글게 */
     border-top-right-radius: 15px; /* 우측 하단바 둥글게 */
 }
+
 .nav-item {
     list-style: none;
     text-align: center;
