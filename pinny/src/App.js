@@ -3,6 +3,7 @@ import React from "react";
 
 import LoginPage from "./pages/login";
 import HomePage from "./pages/home"
+import IncomeExpendPage from './pages/imcon-expend';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Routes>
         <Route path="/login" element={<LoginPage />} />
         <Route path="/home" element={<HomePage/>} />
+        <Route path="/income-expend" element={<IncomeExpendPage/>}/>
       </Routes>
     </Router>
   )
