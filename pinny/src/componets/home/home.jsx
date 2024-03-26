@@ -2,15 +2,15 @@ import React from "react";
 import "../../css/comm/index.css"
 import "../../css/home/home.css"
 import Nav from '../../pages/nav'
-import Calendar from "react-calendar";
+import TopSheet from "./TopSheet";
 
 const Home = () => {
     return (
-        <div className="">
+        <div className="plan">
             <div className="top"> 
-                수입지출기록
+               <TopSheet />
                 <div className="use-money">
-                    <Calendar />
+                    
                 </div> 
                 <div className="week-plan">
                     <div className="week-plan-name">
@@ -23,7 +23,12 @@ const Home = () => {
             </div>
             <hr />
             <div className="career">
-                
+                <div className="career-name">
+                    오늘 실천한 계획을 체크해 주세요!
+                </div>
+                <div className="career-button">
+
+                </div>
             </div>
             <div className="bottom-bar">
                 <Nav />
