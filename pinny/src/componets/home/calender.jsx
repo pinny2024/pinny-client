@@ -3,8 +3,8 @@ import styled from "styled-components";
 import Calendar from "react-calendar";
 import "react-calendar/dist/Calendar.css";
 import selectArrow from "../assets/SelectArrow.svg";
-import moment from "moment";
-
+import moment from "moment"; 
+ 
 const CustomCalendar = ({ onChange, value }) => {
   const [nowDate, setNowDate] = useState("날짜");
   const [isOpen, setIsOpen] = useState(false);
