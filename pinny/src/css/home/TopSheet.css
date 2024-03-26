@@ -1,0 +1,30 @@
+.top-sheet {
+    position: relative;
+  }
+  
+  .content {
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .calendar-container {
+    max-height: 70px; /* 1주일까지만*/
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+  }
+  
+  .calendar-container.open {
+    max-height: 300px; /* 펼쳐진 상태일 때 전체 캘린더가 보이도록 */
+  }
+  
+  .calendar-container.show-full {
+    max-height: none; /* 전체 캘린더가 보이게 */
+  }
+  
