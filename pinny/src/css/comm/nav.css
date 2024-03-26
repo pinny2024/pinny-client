@@ -4,16 +4,16 @@
     left: 0;
     width: 100%;
     height: 8.75vh;
+    box-shadow: 3px -1px 4px 1px rgb(0,0,0,0.1);
+    border-top-left-radius: 15px; /* 왼쪽 하단바 둥글게 */
+    border-top-right-radius: 15px; /* 우측 하단바 둥글게 */
   }
 
 .nav-list {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    border-top: 1px solid #ccc;
     padding: 10px 0;
-    border-top-left-radius: 15px; /* 왼쪽 하단바 둥글게 */
-    border-top-right-radius: 15px; /* 우측 하단바 둥글게 */
 }
 
 .nav-item {
@@ -24,11 +24,20 @@
   
 .nav-icon {
     width: 24px;
-    height: 24px; 
+    height: 24px;
+    color: rgb(0,0,0,0.87); 
 }
   
 .nav-label {
     margin-top: 5px;
-    font-size: 12px; 
+    font-size: 10px; 
+    color: rgb(0,0,0,0.87); 
+    font-weight: 600;
 }
-  
+
+.nav-label-active{
+    margin-top: 5px;
+    font-size: 10px; 
+    color: #38D6B8;
+    font-weight: 600;
+}
