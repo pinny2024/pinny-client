@@ -3,7 +3,7 @@ import React from "react";
 
 import LoginPage from "./pages/login";
 import HomePage from "./pages/home"
-import IncomeExpendPage from './pages/imcon-expend';
+import IncomeExpendPage from './pages/income-expend';
 
 function App() {
   return (
