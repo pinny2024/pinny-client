@@ -28,7 +28,11 @@ const Home = () => {
                     오늘 실천한 계획을 체크해 주세요!
                 </div>
                 <div className="career-button">
-
+                    <button></button>
+                    <button></button>
+                    <button></button>
+                    <button></button>
+                    <button></button>
                 </div>
             </div>
             <div className="bottom-bar">
